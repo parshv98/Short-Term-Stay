@@ -78,17 +78,7 @@ app.delete("/listings/:id", async (req, res) => {
   res.redirect("/listings");
 });
 
-// app.get('/testListing',async(req,res)=>{
-//     let sampleListing = new Listing({
-//         title:"My new villa",
-//         description:"By the Beach",
-//         price:1200,
-//         location:'goa',
-//         country:'India'
-//     });
-//     await sampleListing.save();
-//     res.send("successfully testing");
-// })
+
 
 app.listen(8080,()=>{
     console.log("Sever is working");
